@@ -1,0 +1,22 @@
+{
+	"id": "esp-idf",
+	"version": "0.1.0",
+	"name": "ESP-IDF",
+	"description": "Esp-IDF Develop Container",
+	"documentationURL": "https://github.com/johnluicn/devcontainer-templates/tree/main/src/esp-idf",
+	"publisher": "johnluicn",
+	"licenseURL": "https://github.com/johnluicn/devcontainer-templates/blob/main/LICENSE",
+	"options": {
+		"imageVariant": {
+			"type": "string",
+			"description": "ESP-IDF version:",
+			"proposals": [
+				"5.2.0"
+			],
+			"default": "5.2.0"
+		}
+	},
+	"platforms": [
+		"ESP32"
+	]
+}
